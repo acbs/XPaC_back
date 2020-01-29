@@ -1,9 +1,9 @@
 ---
 applications:
-- name: cf-spring
+- name: XPaC_back
   memory: 768M
   instances: 1
   random-route: true
-  path: target\ford-0.0.1-SNAPSHOT.jar
+  path: target\XPaC_back-0.0.1-SNAPSHOT.jar
   buildpacks:
   - https://github.com/cloudfoundry/java-buildpack.git
